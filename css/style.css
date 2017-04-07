@@ -2718,3 +2718,35 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     padding-left: 0px;
   }
 }
+.reg-box{
+	background-color: rgba(32,103,136,0.50);
+	transition: all .5s;
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+	-o-transition:all .5s;
+}
+.reg-box:hover{
+	background-color: rgba(32,103,136,1.00);
+}
+.reg-txt{
+	text-shadow: 0 0 10px #000;
+	font-size: 150%;
+}
+.reg-btn{
+	font-size: 100%;
+}
+.reg-btn:hover{
+	background-color: #717172;
+	font-size: 120%;
+	color: #D80B0F;
+	text-shadow: 0 1px 5px #fff;
+}
+.no-margin-top{
+	margin-top: 0;
+}
+.head-width{
+	margin-left: 10%;
+}
+.head-txt{
+	text-shadow: 0 0 10px #000;
+}
