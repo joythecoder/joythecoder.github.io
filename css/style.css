@@ -188,13 +188,13 @@ a:hover {
   background-color: #000;
 }
 
-.button.pricing-button {
+.button.registration-button {
   margin-top: 15px;
   border: 2px solid #fff;
   background-color: transparent;
 }
 
-.button.pricing-button:hover {
+.button.registration-button:hover {
   background-color: #fff;
   color: #000;
 }
@@ -827,41 +827,41 @@ a:hover {
   overflow: hidden;
 }
 
-.pricing-column {
+.registration-column {
   padding-right: 0px;
   padding-left: 0px;
 }
 
-.pricing-row {
+.registration-row {
   margin-bottom: 40px;
   padding-right: 10px;
   padding-left: 10px;
 }
 
-.pricing-row.pricing-page {
+.registration-row.registration-page {
   margin-bottom: 0px;
 }
 
-.pricing-block {
+.registration-block {
   position: relative;
   padding: 35px;
   background-color: #34c48b;
   color: #fff;
 }
 
-.pricing-block:hover {
+.registration-block:hover {
   z-index: 10;
 }
 
-.pricing-block._2 {
+.registration-block._2 {
   background-color: #25b77c;
 }
 
-.pricing-block._3 {
+.registration-block._3 {
   background-color: #189b67;
 }
 
-.pricing-title {
+.registration-title {
   margin-bottom: 15px;
   font-family: Montserrat, sans-serif;
   color: #fff;
@@ -871,7 +871,7 @@ a:hover {
   text-transform: uppercase;
 }
 
-.pricing-title.price {
+.registration-title.price {
   display: inline-block;
   margin-bottom: 15px;
   padding-right: 25px;
@@ -881,7 +881,7 @@ a:hover {
   line-height: 50px;
 }
 
-.pricing-list-item {
+.registration-list-item {
   padding-top: 5px;
   border-bottom: 1px solid hsla(0, 0%, 100%, .16);
 }
@@ -974,11 +974,11 @@ a:hover {
   text-transform: none;
 }
 
-.pricing-extra-row {
+.registration-extra-row {
   margin-bottom: 20px;
 }
 
-.extra-pricing-block {
+.extra-registration-block {
   padding: 35px 35px 25px;
   border: 0px solid #fff;
   border-radius: 3px;
@@ -991,17 +991,17 @@ a:hover {
   line-height: 12px;
 }
 
-.extra-pricing-block:hover {
+.extra-registration-block:hover {
   border-color: #919191;
 }
 
-.extra-pricing-block.highlight {
+.extra-registration-block.highlight {
   border-color: #168055;
   background-color: #34c48b;
   color: #fff;
 }
 
-.pricing-wrapper {
+.registration-wrapper {
   width: 40%;
   float: left;
 }
@@ -1044,7 +1044,7 @@ a:hover {
   height: 16px;
 }
 
-.extra-pricing-block-title {
+.extra-registration-block-title {
   margin-bottom: 19px;
   padding-bottom: 8px;
   border-bottom: 2px solid rgba(0, 0, 0, .13);
@@ -1844,7 +1844,7 @@ html.w-mod-js *[data-ix="slider-title-3"] {
   .program-list-item {
     padding-left: 60px;
   }
-  .pricing-block {
+  .registration-block {
     padding-right: 15px;
     padding-left: 15px;
     font-size: 13px;
@@ -2159,11 +2159,11 @@ html.w-mod-js *[data-ix="slider-title-3"] {
   .tab-button-title {
     font-size: 13px;
   }
-  .pricing-row {
+  .registration-row {
     padding-right: 0px;
     padding-left: 0px;
   }
-  .pricing-block {
+  .registration-block {
     margin-bottom: 12px;
   }
   .bottom-footer-block {
@@ -2206,18 +2206,18 @@ html.w-mod-js *[data-ix="slider-title-3"] {
   .page-header-title.subtitle {
     margin-bottom: 10px;
   }
-  .pricing-extra-row {
+  .registration-extra-row {
     margin-bottom: 0px;
   }
-  .pricing-extra-column-left {
+  .registration-extra-column-left {
     padding-right: 0px;
     padding-left: 0px;
   }
-  .pricing-extra-column-right {
+  .registration-extra-column-right {
     padding-right: 0px;
     padding-left: 0px;
   }
-  .extra-pricing-block {
+  .extra-registration-block {
     margin-bottom: 10px;
   }
   .about-us-column {
@@ -2521,10 +2521,10 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     margin-top: 9px;
     font-size: 14px;
   }
-  .pricing-row {
+  .registration-row {
     margin-bottom: 25px;
   }
-  .pricing-block {
+  .registration-block {
     padding-top: 25px;
     padding-bottom: 25px;
   }
@@ -2556,7 +2556,7 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     font-size: 12px;
     line-height: 16px;
   }
-  .extra-pricing-block {
+  .extra-registration-block {
     padding: 25px 25px 15px;
   }
   .large-price-title {
