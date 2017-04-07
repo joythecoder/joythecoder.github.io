@@ -1,8 +1,8 @@
-/* Generated on: Mon Sep 12 2016 06:15:36 GMT+0000 (UTC) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html {
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%
@@ -4064,12 +4064,13 @@ p {
 	color: #D80B0F;
 	text-shadow: 0 1px 5px #fff;
 }
+.head-txt{
+	text-shadow: 0 0 10px #000;
+}
 .no-margin-top{
 	margin-top: 0;
 }
 .head-width{
 	margin-left: 10%;
 }
-.head-txt{
-	text-shadow: 0 0 10px #000;
 }
