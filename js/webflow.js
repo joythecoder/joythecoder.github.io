@@ -738,7 +738,7 @@
 	        textDecoration: 'none'
 	      });
 
-	      var $webflowLogo = $('<img>');
+	      /*var $webflowLogo = $('<img>');
 	      $webflowLogo.attr('src', 'https://daks2k3a4ib2z.cloudfront.net/54153e6a3d25f2755b1f14ed/5445a4b1944ecdaa4df86d3e_subdomain-brand.svg');
 	      $webflowLogo.css({
 	        opacity: 0.9,
@@ -746,13 +746,13 @@
 	        verticalAlign: 'middle',
 	        paddingLeft: '4px',
 	        paddingBottom: '3px'
-	      });
+	      });*/
 
-	      $branding.text('Built with');
+	      /*$branding.text('Built with');
 	      $branding.append($webflowLogo);
-	      $link.append($branding);
+	      $link.append($branding);*/
 
-	      $body.append($link);
+	      //$body.append($link);
 
 	      if (/PhantomJS/.test(window.navigator.userAgent)) {
 	        return;
