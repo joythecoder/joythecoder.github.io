@@ -1,3 +1,8 @@
 .shadowed {
 	text-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
 }
+
+.my-col-offset-1{
+	margin-left: 4.16666%;
+	margin-right: 4.16666%;
+}
