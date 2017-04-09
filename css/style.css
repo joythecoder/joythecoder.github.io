@@ -2700,23 +2700,3 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     padding-left: 0px;
   }
 }
-
-.contact-block {
-  font-family: Montserrat, sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  padding-top: 4rem;
-  margin-bottom: 0.5rem;
-}
-.contact-title {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-}
-.contact-subtitle {
-  text-transform: uppercase;
-  color: #34c48b;
-}
-.contact-text {
-  font-size: 1rem;
-  margin-top: 0rem;
-}
