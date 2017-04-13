@@ -512,20 +512,20 @@ a:hover {
   background-color: #fff;
 }
 
-.section-divider.speaker-divider {
+.section-divider.company-divider {
   margin-top: -1px;
   margin-bottom: 1px;
   background-color: #ff8735;
 }
 
-.speaker-block {
+.company-block {
   position: relative;
   overflow: hidden;
   width: 100%;
   background-color: #000;
 }
 
-.speaker-overlay {
+.company-overlay {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -539,7 +539,7 @@ a:hover {
   font-size: 13px;
 }
 
-.speaker-title {
+.company-title {
   margin-bottom: 7px;
   font-family: Montserrat, sans-serif;
   font-size: 14px;
@@ -548,7 +548,7 @@ a:hover {
   text-transform: uppercase;
 }
 
-.speaker-name {
+.company-name {
   margin-bottom: 11px;
   font-family: Montserrat, sans-serif;
   font-size: 26px;
@@ -557,12 +557,12 @@ a:hover {
   text-transform: uppercase;
 }
 
-.speaker-social-icon {
+.company-social-icon {
   width: 20px;
   height: 20px;
 }
 
-.speaker-social-icon-block {
+.company-social-icon-block {
   width: 30px;
   height: 30px;
   padding-top: 4px;
@@ -570,7 +570,7 @@ a:hover {
   text-align: left;
 }
 
-.speaker-social-icon-block:hover {
+.company-social-icon-block:hover {
   opacity: 1;
 }
 
@@ -618,14 +618,14 @@ a:hover {
   text-decoration: underline;
 }
 
-.link.speaker-link {
+.link.company-link {
   display: inline-block;
   margin-top: 10px;
   color: #fff;
   text-decoration: none;
 }
 
-.link.speaker-link:hover {
+.link.company-link:hover {
   text-decoration: underline;
 }
 
@@ -678,7 +678,7 @@ a:hover {
   color: #fff;
 }
 
-.speaker-wrapper {
+.company-wrapper {
   height: 350px;
   margin-bottom: 20px;
   background-color: #fff;
@@ -686,12 +686,12 @@ a:hover {
   transition: box-shadow 200ms ease;
 }
 
-.speaker-wrapper:hover {
+.company-wrapper:hover {
   position: relative;
   z-index: 20;
 }
 
-.speaker-block-title {
+.company-block-title {
   margin-bottom: -6px;
   font-family: Montserrat, sans-serif;
   color: #000;
@@ -699,13 +699,13 @@ a:hover {
   font-weight: 700;
 }
 
-.speaker-block-title.subtitle {
+.company-block-title.subtitle {
   color: #b1b1b1;
   font-size: 12px;
   font-weight: 400;
 }
 
-.speaker-block-name-wrapper {
+.company-block-name-wrapper {
   padding: 25px;
 }
 
@@ -797,27 +797,27 @@ a:hover {
   font-weight: 400;
 }
 
-.program-speaker-block {
+.program-company-block {
   overflow: hidden;
   padding-bottom: 20px;
   border-bottom: 1px solid #ddd;
 }
 
-.program-speaker-image {
+.program-company-image {
   width: 50px;
   margin-right: 15px;
   float: left;
   border-radius: 6px;
 }
 
-.program-speaker-title {
+.program-company-title {
   margin-top: 11px;
   font-family: Montserrat, sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
 
-.program-speaker-title.subtitle {
+.program-company-title.subtitle {
   margin-top: 0px;
   color: #34c48b;
   font-size: 14px;
@@ -1550,7 +1550,7 @@ a:hover {
   float: left;
 }
 
-.speaker-image-block {
+.company-image-block {
   width: 100%;
   height: 250px;
   background-image: url("../images/example-bg.png");
@@ -1558,12 +1558,12 @@ a:hover {
   background-size: cover;
 }
 
-html.w-mod-js *[data-ix="hide-speaker-overlay"] {
+html.w-mod-js *[data-ix="hide-company-overlay"] {
   display: none;
   opacity: 0;
 }
 
-html.w-mod-js *[data-ix="hide-speaker-element"] {
+html.w-mod-js *[data-ix="hide-company-element"] {
   opacity: 0;
   -webkit-transform: translate(0px, 20px);
   -ms-transform: translate(0px, 20px);
@@ -1800,15 +1800,15 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     margin-top: 9px;
     margin-bottom: 8px;
   }
-  .speaker-overlay {
+  .company-overlay {
     font-size: 12px;
     line-height: 17px;
   }
-  .speaker-title {
+  .company-title {
     margin-bottom: 5px;
     font-size: 13px;
   }
-  .speaker-name {
+  .company-name {
     margin-bottom: 2px;
     font-size: 18px;
     line-height: 18px;
@@ -1828,16 +1828,16 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     font-size: 25px;
     line-height: 23px;
   }
-  .speaker-wrapper {
+  .company-wrapper {
     height: 260px;
   }
-  .speaker-block-title {
+  .company-block-title {
     font-size: 11px;
   }
-  .speaker-block-title.subtitle {
+  .company-block-title.subtitle {
     font-size: 10px;
   }
-  .speaker-block-name-wrapper {
+  .company-block-name-wrapper {
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -1984,7 +1984,7 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     padding-right: 5px;
     padding-left: 5px;
   }
-  .speaker-image-block {
+  .company-image-block {
     height: 170px;
   }
   .event-map {
@@ -2141,11 +2141,11 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     font-size: 15px;
     line-height: 18px;
   }
-  .speaker-wrapper {
+  .company-wrapper {
     height: auto;
     margin-bottom: 10px;
   }
-  .speaker-block-title {
+  .company-block-title {
     font-size: 13px;
   }
   .program-tab-pane {
@@ -2339,7 +2339,7 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     padding-right: 0px;
     padding-left: 0px;
   }
-  .speaker-image-block {
+  .company-image-block {
     height: 210px;
   }
   .logo-container {
@@ -2470,12 +2470,12 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     margin-top: 3px;
     margin-bottom: 3px;
   }
-  .speaker-overlay {
+  .company-overlay {
     padding: 15px;
     font-size: 11px;
     line-height: 16px;
   }
-  .speaker-name {
+  .company-name {
     font-size: 17px;
     line-height: 18px;
   }
@@ -2504,10 +2504,10 @@ html.w-mod-js *[data-ix="slider-title-3"] {
   .link.bottom-footer-link {
     font-size: 10px;
   }
-  .speaker-block-title {
+  .company-block-title {
     font-size: 12px;
   }
-  .speaker-block-name-wrapper {
+  .company-block-name-wrapper {
     padding-right: 15px;
     padding-left: 15px;
   }
@@ -2519,7 +2519,7 @@ html.w-mod-js *[data-ix="slider-title-3"] {
     padding-top: 8px;
     padding-bottom: 8px;
   }
-  .program-speaker-title {
+  .program-company-title {
     margin-top: 9px;
     font-size: 14px;
   }
