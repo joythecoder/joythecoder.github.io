@@ -21,3 +21,12 @@
   font-size: 1rem;
   margin-top: 0rem;
 }
+
+.company-wrapper {
+  background-color: #efefef;
+}
+.company-image-block {
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-color: white;
+}
