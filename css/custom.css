@@ -30,3 +30,8 @@
   background-size: 80%;
   background-color: white;
 }
+
+.container-link {
+  text-decoration: none;
+  color: auto;
+}
