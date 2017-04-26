@@ -199,6 +199,16 @@ a:hover {
   color: #000;
 }
 
+.button.registration-closed {
+  margin-top: 15px;
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+
+.button.registration-closed:hover {
+  color: #fff;
+}
+
 .button.info-button {
   padding-right: 7px;
   padding-left: 7px;
