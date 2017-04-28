@@ -38,3 +38,6 @@
 .txt-white{
 	color: #fff;
 }
+.link-btn:hover{
+	background-color: #000;
+}
