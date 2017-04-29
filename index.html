@@ -24,7 +24,7 @@
 <body class="body">
   <div class="default-navbar-wrapper subpage">
     <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
-       <div class="w-container">
+      <div class="w-container">
         <a class="logo-container w-nav-brand" href="index.html">
           <h1 class="text-logo">Virtual Internship<br>Fair 2017</h1>
         </a>
@@ -54,8 +54,7 @@
                 <h1 class="slide-title shadowed" data-ix="slider-title">
                   PRESENTED BY JAMIA MILLIA ISLAMIA'S UNIVERSITY PLACEMENT CELL
                 </h1>
-				  <h2 data-ix="slider-title-2" class="company-name txt-white shadowed partner-margin"> OUTREACH PARTNER - <c>ENTREPRENEUR CAFE</c> </h2>
-                <h2 class="slide-title subtitle shadowed" data-ix="slider-title-3">
+                <h2 class="slide-title subtitle shadowed" data-ix="slider-title-2">
                   An online Internship Fair based on remote interviews.
                 </h2>
               </div>
@@ -127,20 +126,28 @@
     </div>
   </div>
 
-  <div class="section color" id="helpline">
+  <div class="section tint" id="helpline">
     <div class="container w-container centered">
       <div class="centered section-title-wrapper">
-        <h2 class="section-title" data-ix="fade-in-on-scroll">HELPLINE FOR STUDENTS</h2>
+        <h2 class="section-title" data-ix="fade-in-on-scroll">STUDENT HELPLINE</h2>
         <div class="section-divider" data-ix="fade-in-on-scroll-2"></div>
-		  <h2 class="section-title subtitle" data-ix="fade-in-on-scroll-3">In case you need any help regarding the schedule of the company which you selected.<br> <strong>Contact the assigned coordinator</strong> </h2>
+        <h2 class="section-title subtitle" data-ix="fade-in-on-scroll-3">
+          You may <b>conatct the assigned coordinators</b> in case you need help regarding the interview schedule of the company you selected.
+        </h2>
       </div>
-      <iframe src="https://docs.google.com/spreadsheets/d/1ta-T-Di_bMflNWAIGqo_pcqJwGUw7HPFnRBlopnB-Rc/pubhtml?widget=true&amp;headers=true" height="600" width="83%"></iframe>
-		<h2 class="section-title subtitle" data-ix="fade-in-on-scroll-3">In case you are unable to view the above document <a target="new" class="button link link-btn" href="https://docs.google.com/spreadsheets/d/1ta-T-Di_bMflNWAIGqo_pcqJwGUw7HPFnRBlopnB-Rc/pubhtml"> Click Here </a> to view directly </h2>
+      <iframe src="https://docs.google.com/spreadsheets/d/1ta-T-Di_bMflNWAIGqo_pcqJwGUw7HPFnRBlopnB-Rc/pubhtml?widget=true&amp;headers=false"
+        height="600" width="83%"></iframe>
+      <h2 class="section-title subtitle" data-ix="fade-in-on-scroll-3">
+        Having trouble viewing the above document?
+        <a target="new" class="button link link-btn" href="https://docs.google.com/spreadsheets/d/1ta-T-Di_bMflNWAIGqo_pcqJwGUw7HPFnRBlopnB-Rc/pubhtml">
+          Click Here
+        </a>
+        to view it in a new tab.
+      </h2>
     </div>
   </div>
 
-
-  <div id="register" class="section tint">
+  <div id="register" class="section">
     <div class="centered container w-container">
       <div class="centered section-title-wrapper">
         <h2 class="section-title" data-ix="fade-in-on-scroll">Registration</h2>
@@ -153,11 +160,10 @@
             <div class="registration-title">Students</div>
             <ul class="registration-list w-list-unstyled">
               <li class="registration-list-item">
-                <p class="paragraph">Registrations are now Closed!</p>
+                <p class="paragraph">Registrations are now closed</p>
               </li>
             </ul>
-            <a class="button w-button registration-closed" href="#">Closed!</a>
-<!--            <a class="button registration-button w-button" href="https://goo.gl/forms/ise4LJLxhmQ70ULT2">Update response</a>-->
+            <a class="button w-button registration-closed">Closed</a>
           </div>
         </div>
         <div class="registration-column w-col w-col-6">
@@ -165,10 +171,10 @@
             <div class="registration-title">Companies</div>
             <ul class="registration-list w-list-unstyled">
               <li class="registration-list-item">
-                <p class="paragraph">Registrations are now closed!</p>
+                <p class="paragraph">Registrations are now closed</p>
               </li>
             </ul>
-            <a class="button  registration-closed w-button" href="#">Closed!</a></div>
+            <a class="button  registration-closed w-button">Closed</a></div>
         </div>
       </div>
     </div>
@@ -181,6 +187,17 @@
           <div class="footer-title">Internship Fair 2017</div>
           <div class="section-divider"></div>
           <p>Presented by <b>University Placement Cell</b>, Jamia Millia Islamia</p>
+          <br>
+          <div class="w-dyn-list">
+            <div class="w-clearfix w-dyn-items w-row">
+              <div class="dynamic-sponsor-item w-col w-col-6 w-dyn-item">
+                <div class="logo-block w-inline-block">
+                  <p>Outreach partner</p>
+                  <img class="sponsor-logo" src="images/logo-entrepreneur-cafe.png">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="footer-column w-col w-col-4">
           <div class="footer-title">Links</div>
@@ -201,10 +218,10 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="js/webflow.js"></script>
   <script>
-	  $(document).ready(function(){
-		 alert("GO TO SCHEDULE PAGE to check your timings."); 
-	  });
-	  
+    $(document).ready(function () {
+      alert("See the schedule for interview timings.");
+    });
+
     $(".scroll").click(function (event) {
       event.preventDefault();
       $('html,body').animate({
