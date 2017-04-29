@@ -2,6 +2,16 @@
 	text-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
 }
 
+.partner-margin{
+	width: 50%;
+	margin-left: 80%;
+	margin-top: -10%;
+}
+c{
+	text-decoration: underline;
+	font-style: italic;
+	text-shadow: 1px 1px 3px #000;
+}
 .contact-block {
   font-family: Montserrat, sans-serif;
   font-size: 1.25rem;
