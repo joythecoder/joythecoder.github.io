@@ -202,7 +202,7 @@ a:hover {
 .button.registration-closed {
   margin-top: 15px;
   border: 2px solid #fff;
-  background-color: #E40F0F;
+  background-color: #f44336;
 }
 
 .button.registration-closed:hover {
