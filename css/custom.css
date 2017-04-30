@@ -53,3 +53,17 @@
 iframe {
   border: none;
 }
+.logo-block.partner{
+	background-image: url(../images/logo-entrepreneur-cafe.png);
+	background-size: 90%;
+	background-color: #DE474A;
+	background-repeat: no-repeat;
+	padding: 15% 0;
+	
+}
+/*
+@media (max-width: 767px){
+	.logo-block.partner{
+		padding: 15% 0;
+	}
+}*/
